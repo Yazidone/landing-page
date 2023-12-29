@@ -1,0 +1,291 @@
+*{
+    margin:0;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    z-index: 999999;
+    width: 100%;
+    position: fixed;
+}
+
+section header{
+    height: 600px;
+    width: 1450px;
+}
+
+.logox{
+    width:90px;
+    height:90px;
+   
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 50px;
+    position: fixed;
+    
+
+}
+.nav a{
+    text-decoration: none;
+    color: #787878;
+    font-size: 1.2em;
+}
+.nav a:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.join{
+    background-color:#eb4949;
+    height: 15px;
+    padding:15px;
+    
+    margin-right: 40px; 
+    border-radius: 18px;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.joinbg{
+    background-color: #eb4949;
+    color: black;
+    
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(bgg.jpeg);
+    background-size: 100% 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.texte{
+    color:white;
+}
+.texte h1{
+    font-size: 2.5em;
+    font-family: 'open sans', sans-serif;
+}
+.texte p{
+    font-size: 1.5em;
+    font-family: 'open sans', sans-serif;
+}
+.liste-forms{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 30px;
+    color: white;
+    list-style: none;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 30px;
+  
+    
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.input-height{
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.text-form{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+.ppp{
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.submit{
+    color: white;
+}
+.t1{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    margin: 30px;
+    text-align: center;
+    
+/*
+    position: relative;
+    top: 50px;
+*/
+    font-size: 35px;
+    
+}
+
+
+
+.p1{
+   font-size: 1em;
+    font-family: sans-serif;
+        text-align: center;
+
+/*
+    position: relative; 
+    top: 60px;  
+*/
+    color: #787878;
+}
+
+
+/*
+.images{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    column-gap: 30px;
+    padding: 20px
+}
+.images img{
+    width: 80%;
+    height: 100px;
+    
+    
+}
+*/
+
+.elements{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+padding: 0% 5% 0% 5%;
+    
+    
+    
+    list-style: none;
+}
+.element{
+    
+    list-style: none;
+        margin: 10% 0% 10% 0%;
+    padding: 10% 0% 10% 0%;
+}
+.element img{
+    width: 100%;
+    height: 250px;
+}
+.zero{
+    list-style: none;
+    
+}
+
+.video{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+/*    border: 2px solid black;*/
+    
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 50% 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+/*    border: 2px solid black;*/
+}
+
+#imgteam{
+    width: 100%;
+    height: 50%;
+    
+}
+.tring{
+    margin: 0em 5em 6em 7em;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E2E2E2;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.pra11{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    
+}
+.nav-mobile{ display: none;}
+
+@media screen and (max-width:600px){
+    
+    .texte{ display: none;   
+        
+    }
+    
+    .nav-mobile{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .nav{
+        display: none;
+    }
+    .texte{
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+.sestion1{
+    
+}
+
+
+.plan1{
+    
+}
+
+.plan2{
+    
+    
+}
+
+/*
+.para1{
+    
+    justify-items: center;
+    text-align: center;
+    align-content: center
+}
+*/
+
+
